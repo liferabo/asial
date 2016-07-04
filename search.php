@@ -15,6 +15,8 @@ if(!isset($_POST["type"])){
 	$_POST["type"] = "";
 }
 
+print("a");
+
 //検索ボタンがクリックされたとき
 if(isset($_POST["mode"]) && $_POST["mode"] == "search"){
 	$keyword = $_POST["keyword"];
