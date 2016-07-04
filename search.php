@@ -15,7 +15,7 @@ if(!isset($_POST["type"])){
 	$_POST["type"] = "";
 }
 
-print("a");
+print("ブランチを変えてみたよ");
 
 //検索ボタンがクリックされたとき
 if(isset($_POST["mode"]) && $_POST["mode"] == "search"){
